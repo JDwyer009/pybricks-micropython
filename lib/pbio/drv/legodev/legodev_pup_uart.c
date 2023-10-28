@@ -20,7 +20,7 @@
 #include "legodev_pup_uart.h"
 #include "legodev_spec.h"
 
-#define DEBUG 0
+#define DEBUG 1
 #if DEBUG
 #include <inttypes.h>
 #define debug_pr(fmt, ...)   printf((fmt), __VA_ARGS__)
